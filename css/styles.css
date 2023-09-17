@@ -1,13 +1,14 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+/*==========headtr============*/
 .header-logo {
     color: var(--NAVY-BLUE, #2E2F42);
         font-family: Raleway;
         font-size: 18px;
         font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 0.54px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
@@ -28,11 +29,59 @@ body{
         line-height: 1.5;
         letter-spacing: 0.02em;
  }
-
-
+.header-menu-item:active {
+    color: #5fe54d;
+}
+.header-menu-item:focus {
+    color: #5fe54d;
+}
+.header-menu-item:hover {
+    color: #5fe54d;
+}
  .address {
     color: var(--SLATE, #434455);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+ }
+ .address-menu-item-list:active {
+    color: #5fe54d;
+ }
+ .address-menu-item-list:focus {
+    color: #5fe54d;
+ }
+ .address-menu-item-list:hover {
+    color: #5fe54d;
+ }
+ /*==========main============*/
+ .main {
+    background: var(--NAVY-BLUE, #2E2F42);
+ }
+ .main-name {
+    color: var(--WHITE, #FFF);
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 1.02em;
+ }
+ .main-btn {
+        font-family: inherit;
+        background-color: #4D5AE5;
+        color: #FFF;
+        border-color: #4D5AE5;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1,5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+ }
+ .main-btn:active {
+    background-color: #404bbf;
+ }
+ .main-btn:hover {
+    background-color: #404bbf;
+ }
+ .main-btn:focus {
+    background-color: #404bbf;
  }
