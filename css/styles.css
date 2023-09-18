@@ -15,7 +15,7 @@ body{
 }
 
 .span-logo {
-    color: #2E2F42;
+    color: #2e2f42;
 }
 
 .header-menu {
@@ -108,7 +108,7 @@ body{
   .title {color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;}
 
   .title-text {
@@ -122,7 +122,7 @@ body{
 
 /*========== hero ============*/
   .hero {
-     background: var(--CLOUD, #F4F4FD);
+     background: var(--CLOUD, #FFFFFF);
 }
 
   .hero-item {
@@ -130,7 +130,7 @@ body{
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -161,7 +161,7 @@ body{
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
