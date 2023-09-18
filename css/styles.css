@@ -48,6 +48,7 @@ body{
  .address {
     color: var(--SLATE, #434455);
         font-size: 16px;
+        font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.02em;
  }
@@ -78,6 +79,7 @@ body{
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+      }
 
  .main-btn {
         font-family: inherit;
@@ -89,8 +91,7 @@ body{
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
-        
- }
+      }
 
  .main-btn:active {
     background-color: #404bbf;
