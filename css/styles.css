@@ -73,7 +73,7 @@ body{
  }
 
  .main-name {
-    color: var(--WHITE, #FFF);
+    color: var(--WHITE, #F4F4FD);
         text-align: center;
         font-size: 56px;
         font-weight: 700;
@@ -94,7 +94,7 @@ body{
       }
 
  .main-btn:active {
-    background-color: #404bbf;
+    background-color:  #F4F4FD;
  }
 
  .main-btn:hover {
@@ -105,7 +105,7 @@ body{
     background-color: #404bbf;
  }
 
-  .title {color: var(--NAVY-BLUE, #2E2F42);
+  .title-feature {color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -122,7 +122,7 @@ body{
 
 /*========== hero ============*/
   .hero {
-     background: var(--CLOUD, #FFFFFF);
+     background: var(--CLOUD, #F4F4FD);
 }
 
   .hero-item {
