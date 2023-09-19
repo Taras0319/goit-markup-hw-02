@@ -113,7 +113,7 @@ color: #2e2f42;
 /*============================*/
 
 /*========== hero ============*/
-  .hero {
+  .hero-list{
      background: var(--CLOUD, #ffffff);
 }
 
