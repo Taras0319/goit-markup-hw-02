@@ -114,7 +114,7 @@ color: #2e2f42;
 
 /*========== hero ============*/
   .hero {
-     background: var(--CLOUD, #F4F4FD)
+    background: var(--CLOUD, #F4F4FD);
 }
 
   .hero-item {
@@ -147,7 +147,9 @@ color: #2e2f42;
 /*============================*/
 
 /*========== portfolio ============*/
-
+  .portfolio {
+    background: #FFF;
+}
   .portfolio-item {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
