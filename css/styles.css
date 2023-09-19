@@ -49,7 +49,7 @@ background-color: #FFF;
     color: #404bbf;
 }
 
- .address {
+ .address-menu-item-list  {
     color: #434455;
         font-size: 16px;
         font-style: normal;
@@ -120,6 +120,10 @@ background-color: #FFF;
 /*========== hero ============*/
   .hero {
     background: #F4F4FD;
+}
+
+  .hero-subtitle {
+    background: #FFF
 }
 
   .hero-item {
