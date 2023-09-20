@@ -3,6 +3,15 @@ body{
     color: #434455;
     background-color: #FFF;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 /*========== header ============*/
 .header-logo {
     color: var(--NAVY-BLUE, #4D5AE5);
@@ -17,14 +26,6 @@ body{
 .header-logo-span {
 color: #2e2f42;
 }
-
-.header-menu {
-    color: #2e2f42;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
- }
 
 .header-item {
 background-color: #FFF;
@@ -56,7 +57,6 @@ font-style: normal;
  .address-menu-item-list  {
     color: #434455;
         font-size: 16px;
-        font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.02em;
  }
@@ -90,7 +90,6 @@ font-style: normal;
         font-family: inherit;
         background-color: #4D5AE5;
         color: #FFF;
-        border-color: #4D5AE5;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -150,7 +149,6 @@ font-style: normal;
 }
 
   .hero-profession {
-    color: var(--SLATE, #434455);
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
@@ -211,7 +209,6 @@ font-style: normal;
 
   .footer-text {
     color: var(--CLOUD, #F4F4FD);
-    font-family: Roboto;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
